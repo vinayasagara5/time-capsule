@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "time-capsule"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "time-capsule-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

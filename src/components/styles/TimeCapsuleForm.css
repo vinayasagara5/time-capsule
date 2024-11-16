@@ -1,0 +1,22 @@
+.capsule-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.capsule-form h2 {
+    margin-bottom: 1rem;
+}
+
+.capsule-form textarea {
+    height: 100px;
+}
+
+.capsule-form input,
+.capsule-form button {
+    margin-top: 1rem;
+}
